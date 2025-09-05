@@ -117,8 +117,10 @@ a{
 }
 
 .btn{
-    width:140px;
-    
+    display: flex;   /* flexbox layout */
+  align-items: center;
+  justify-content: center;
+    width:140px;   
     background-color: #72a7be;
     padding: 0.8rem 2.3rem;
     color:rgb(2, 2, 2);
@@ -425,14 +427,51 @@ height: 100%; */
      */
 
 }
-.btn{
+.btn-grp{
     display: felx;
-    gap:0.9rem;
+    gap:10px;
     align-items: center;
     border-radius: 2px; 
+    z-index: 1;
 }
 /* .btn-pink:hover {
     border:none;
 } */
+.btn-project:hover{
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  
 
- 
+}
+
+.btn-project {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  
+}
+.btn-grp{
+    display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn{
+    padding: 13px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.icon{
+    color: rgb(235, 233, 233);
+    font-size: 30px;
+    transition: 0.4s;
+    transition: 0.4;
+}
+.icon:hover{
+    color: rgb(174, 208, 214) ;
+}
