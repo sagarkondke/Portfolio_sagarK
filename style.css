@@ -337,7 +337,7 @@ height: 100%; */
 .project-card{
     width: 90%;
     height: 550px;
-    background-image:url(Project2.png) ;
+    /* background-image:url(Project2.png) ; */
     background-size: cover;
     /* background-repeat:no-repeat; */
     position: relative;
@@ -373,10 +373,17 @@ height: 100%; */
 }
 .project-number{
     position: absolute;
-    font-size: 200px;
+    font-size: 130px;
     font-weight: 600;
     color: white;
     z-index: 1;
+    padding :15px;
+    display: none;
+    transition: 0.5s;
+}
+.project-card:hover .project-number{
+    display: block;
+
 }
 .project-number-left{
     right:-40px;
@@ -475,3 +482,33 @@ height: 100%; */
 .icon:hover{
     color: rgb(174, 208, 214) ;
 }
+.project-card:hover .project-content{
+    transform: scale(1.1);
+}
+
+/* we are change here the background image of all card we are use 
+developing phase one image as background  */
+
+#project1{
+    
+    background-image: url(Project1.png);
+}
+#project2{
+    margin-left: 120px;
+    background-image: url(Project2.png);
+}
+#project3{
+    background-image: url(Project3.png);
+}
+#project4{
+    margin-left:120px;
+    background-image:url(Project4.png);
+}
+
+
+/* 
+
+This space is for media querys
+
+*/
+
