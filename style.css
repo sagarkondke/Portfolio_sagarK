@@ -7,10 +7,12 @@
 }
 #wrapper{
     height: 100%;
+    /* display: flex; */
     overflow-y:auto;
     overflow-x: hidden;
     
  }
+ 
   
 .navbar{
     display: flex;
@@ -320,10 +322,11 @@ height: 100%; */
 }
 
 .project-header{
-    color: rgb(207, 98, 58);
+    color: rgb(235, 94, 12);
     /* font-weight: bold ; */
     text-align: center;
-    padding-top: 30px;
+    padding-top: 15px;
+    font-size: 5rem;
    }
 
 .project-container{
@@ -511,4 +514,15 @@ developing phase one image as background  */
 This space is for media querys
 
 */
+.container{
+    display: flex;
+    position: relative;
+ }
+.skills-container {
+    position: relative;
+    display: flex;
+    padding: 5rem;
+    margin: 10rem auto;
+    gap: 30px;
 
+}
