@@ -514,10 +514,10 @@ developing phase one image as background  */
 This space is for media querys
 
 */
-.container{
+/* .container{
     display: flex;
     position: relative;
- }
+ } */
 .skills-container {
     position: relative;
     display: flex;
@@ -526,3 +526,74 @@ This space is for media querys
     gap: 30px;
 
 }
+.skill-container-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.skill-conatiner-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    position: relative;
+    gap:2rem;
+    justify-content: center;
+    
+}
+.skill-fade-text{
+    position: absolute;
+    font-size: 15em;
+    font-style: bold;
+    color:rgb(231,231,231);
+    bottom:-34.5%;
+    right: 25%;
+    user-select: none;
+    overflow-y:hidden ;
+
+}
+.blob-style{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    animation:blobanimation 3s linear infinite;
+    z-index: -1;
+}
+
+@keyframes blobanimation {
+    50%{
+        top:54%;
+        left:56%;
+    }
+}
+
+
+.skill-logo{
+    display: flex;
+    /* position:absolute; */
+    flex-wrap: wrap;
+    width: 90px;
+}
+.skill-logo:hover{
+   transform: scale(1.2);
+}
+.skill-heading{
+    font-size: 50px;
+    font-style: bold;
+    color:rgb(218, 93, 93);
+    
+}
+.caps{
+    font-size: 90px;
+}
+.skill-subheading{
+    margin-top: 1rem;
+    width: 85%;
+    text-align: justify ;
+}
+ .skill-subheading p{
+    margin: 15px 0 ;
+ }
+
+
