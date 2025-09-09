@@ -471,7 +471,7 @@ height: 100%; */
 }
 
 .btn{
-    padding: 13px 16px;
+  padding: 13px 16px;
   border: none;
   cursor: pointer;
   font-size: 16px;
@@ -543,13 +543,16 @@ This space is for media querys
 }
 .skill-fade-text{
     position: absolute;
+    /* width: ; */
+    /* height:50% ; */
     font-size: 15em;
     font-style: bold;
     color:rgb(231,231,231);
-    bottom:-34.5%;
-    right: 25%;
+    bottom:-34%;
+    /* right: 1px; */
     user-select: none;
-    overflow-y:hidden ;
+    overflow-x:hidden ;
+    
 
 }
 .blob-style{
@@ -596,4 +599,25 @@ This space is for media querys
     margin: 15px 0 ;
  }
 
+.contactus-from-container{
+    width: 100%;
+    background-color: rgb(231,231,231);
+}
+.containerr{
+    position: relative;
+    /* display: flex; */
+    padding: 1rem;
+    /* margin: 10rem auto; */
+    gap: 30px;
+} 
 
+.contactus-heading{
+    font-size: 4rem;
+    color:rgb(90, 192, 199);
+    padding: 2rem;
+}
+.contactus-subheading{
+    font-size: 2rem;
+    padding:2rem;
+    color:#343d68aa ;
+}
