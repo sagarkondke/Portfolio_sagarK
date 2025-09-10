@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- For Font Awesome 6 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
     <div id="wrapper">
@@ -65,7 +68,7 @@
     </div>
      </div>
 
-     <div class="project-section">
+     <div id="projects" class="project-section">
         <h2 class="project-header">Projects</h2>
         <div class="project-container">
 
@@ -271,15 +274,15 @@
       </div>   
     
     
-      <div class="contactus-from-container">
+      <div id="contactme" class="contactus-from-container" >
         <div class="containerr">
             <h2 class="contactus-heading">Contact me</h2>
             <h3 class="contactus-subheading">Question thoughts, or just want to say hello?
             </h3>
             <div class="contactus-form-container">
-                <form action=""> 
+                <form class="form" action=""> 
                     <div class="formfield-container">
-                        <input class="formfield"
+                        <input class="fromfield"
                         type="text"
                         name="name"
                         id=""
@@ -291,22 +294,23 @@
                         placeholder="Enter your email">
 
                         <input class="fromfield"
-                        type="email"
+                        type="text"
                         name="subject"
                         id=""
                         placeholder="Enter your subject">
 
                         <textarea name="message" 
+                        class="fromfield formfield-textarea"
+                        type="text"
                         id=""
                         cols="30"
                         rows="10"
-                        class="formfield formfield-textarea"
-                        placeholder="enter your message">
+                        placeholder="Enter you meassage">
                         </textarea>
                     </div>
                     <div>
                         <button type="submit" class="btn" id="submit-btn">
-                            send message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                            Send message<i class="submit-icon fa-solid fa-paper-plane"></i>
                         </button>
                     </div>
                 </form>
@@ -314,7 +318,32 @@
         </div>
       </div>
 
-
+      <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-faded-text">Sagar Kondke</div>
+                <div class="link-wrapper">
+                    <div>
+                        <a href="#project">Project</a>
+                    </div>
+                    <div>
+                        <a href="#skills">skills</a>
+                    </div>
+                    <div>
+                        <a href="#contactme">Contact Me</a>
+                    </div>
+                </div>
+                <div class="icon-wrapper">
+                   <i class="fa-brands fa-linkedin  icons"></i>
+                   <i class="fa-brands fa-github  icons"></i>
+                   <i class="fa-brands fa-twitter icons"></i>
+                   <i class="fa-brands fa-instagram icons"></i>
+                   <i class="fa-brands fa-envelope icons"></i>
+                   
+                </div>
+            </div>
+        </div>
+      </footer>
 
 
 
